@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'laravel-elexir-vue-2' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData laravel-elexir-vue-2
+8 silly fetchNamedPackageData laravel-elexir-vue-2
+9 silly mapToRegistry name laravel-elexir-vue-2
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://217.160.143.117:4873/
+12 silly mapToRegistry uri http://217.160.143.117:4873/laravel-elexir-vue-2
+13 verbose request uri http://217.160.143.117:4873/laravel-elexir-vue-2
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 01:56:36
+16 verbose request using bearer token for auth
+17 verbose request id 5e93324c0309589c
+18 http request GET http://217.160.143.117:4873/laravel-elexir-vue-2
+19 http 404 http://217.160.143.117:4873/laravel-elexir-vue-2
+20 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+20 verbose headers   'content-type': 'application/json; charset=utf-8',
+20 verbose headers   'content-length': '43',
+20 verbose headers   etag: 'W/"2b-d418f262"',
+20 verbose headers   vary: 'Accept-Encoding',
+20 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+20 verbose headers   date: 'Sun, 05 Feb 2017 00:56:38 GMT',
+20 verbose headers   connection: 'keep-alive' }
+21 silly get cb [ 404,
+21 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+21 silly get     'content-type': 'application/json; charset=utf-8',
+21 silly get     'content-length': '43',
+21 silly get     etag: 'W/"2b-d418f262"',
+21 silly get     vary: 'Accept-Encoding',
+21 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+21 silly get     date: 'Sun, 05 Feb 2017 00:56:38 GMT',
+21 silly get     connection: 'keep-alive' } ]
+22 silly fetchPackageMetaData Error: no such package available : laravel-elexir-vue-2
+22 silly fetchPackageMetaData     at makeError (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+22 silly fetchPackageMetaData     at Request._callback (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+22 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\request\request.js:198:22)
+22 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+22 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\request\request.js:1082:10)
+22 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+22 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\request\request.js:1009:12)
+22 silly fetchPackageMetaData  error for laravel-elexir-vue-2 { [Error: no such package available : laravel-elexir-vue-2] pkgid: 'laravel-elexir-vue-2', statusCode: 404, code: 'E404' }
+23 silly rollbackFailedOptional Starting
+24 silly rollbackFailedOptional Finishing
+25 silly runTopLevelLifecycles Starting
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: no such package available : laravel-elexir-vue-2
+28 verbose stack     at makeError (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+28 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+28 verbose stack     at Request._callback (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+28 verbose stack     at Request.self.callback (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\request\request.js:198:22)
+28 verbose stack     at emitTwo (events.js:87:13)
+28 verbose stack     at Request.emit (events.js:172:7)
+28 verbose stack     at Request.<anonymous> (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\request\request.js:1082:10)
+28 verbose stack     at emitOne (events.js:82:20)
+28 verbose stack     at Request.emit (events.js:169:7)
+28 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Carlos\AppData\Roaming\nvm\v5.1.1\node_modules\npm\node_modules\request\request.js:1009:12)
+29 verbose statusCode 404
+30 verbose pkgid laravel-elexir-vue-2
+31 verbose cwd C:\xampp\htdocs\blog
+32 error Windows_NT 10.0.14393
+33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "laravel-elexir-vue-2"
+34 error node v5.1.1
+35 error npm  v3.3.12
+36 error code E404
+37 error 404 no such package available : laravel-elexir-vue-2
+37 error 404
+37 error 404 'laravel-elexir-vue-2' is not in the npm registry.
+37 error 404 You should bug the author to publish it (or use the name yourself!)
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, http url, or git url.
+38 verbose exit [ 1, true ]
