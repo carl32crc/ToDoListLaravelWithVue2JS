@@ -27,7 +27,7 @@
 </template>
 <style>
 	img{
-		width: 30%;
+		width: 100px;
 		margin: auto;
 		display: block;
 		margin-bottom: 10px;
